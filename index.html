@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</html>
+<body>
+
+    <canvas id="canvas" width="640" height="640">canvas</canvas>
+
+    <script>
+
+        var canvas = document.getElementById("canvas");
+        var context = canvas.getContext("2d");
+
+        let player = { x: 280, y: 280 };
+
+        context.fillStyle = "#444444";
+        context.fillRect(player.x, player.y, 80, 80);
+
+    </script>
+
+</body>
